@@ -14,6 +14,7 @@
 		F25C423B1BCB9CB600855626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25C423A1BCB9CB600855626 /* Assets.xcassets */; };
 		F25C423E1BCB9CB600855626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25C423C1BCB9CB600855626 /* LaunchScreen.storyboard */; };
 		F25C424A1BCBA05C00855626 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25C42491BCBA05C00855626 /* image.jpg */; settings = {ASSET_TAGS = (); }; };
+		F25C424D1BCC0E4C00855626 /* RWTCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25C424C1BCC0E4C00855626 /* RWTCenteredScrollView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		F25C423D1BCB9CB600855626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F25C423F1BCB9CB600855626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F25C42491BCBA05C00855626 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		F25C424B1BCC0E4C00855626 /* RWTCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTCenteredScrollView.h; sourceTree = "<group>"; };
+		F25C424C1BCC0E4C00855626 /* RWTCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTCenteredScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				F25C42321BCB9CB600855626 /* AppDelegate.m */,
 				F25C42341BCB9CB600855626 /* RWTViewController.h */,
 				F25C42351BCB9CB600855626 /* RWTViewController.m */,
+				F25C424B1BCC0E4C00855626 /* RWTCenteredScrollView.h */,
+				F25C424C1BCC0E4C00855626 /* RWTCenteredScrollView.m */,
 				F25C42371BCB9CB600855626 /* Main.storyboard */,
 				F25C42491BCBA05C00855626 /* image.jpg */,
 				F25C423A1BCB9CB600855626 /* Assets.xcassets */,
@@ -156,6 +161,7 @@
 				F25C42361BCB9CB600855626 /* RWTViewController.m in Sources */,
 				F25C42331BCB9CB600855626 /* AppDelegate.m in Sources */,
 				F25C42301BCB9CB600855626 /* main.m in Sources */,
+				F25C424D1BCC0E4C00855626 /* RWTCenteredScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

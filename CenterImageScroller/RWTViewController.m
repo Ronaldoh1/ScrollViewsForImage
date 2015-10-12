@@ -7,10 +7,11 @@
 //
 
 #import "RWTViewController.h"
+#import "RWTCenteredScrollView.h"
 
 @interface RWTViewController ()<UIScrollViewDelegate>
 
-@property UIScrollView *scrollView;
+@property RWTCenteredScrollView *scrollView;
 @property UIImageView *imageView;
 @end
 
@@ -24,9 +25,9 @@
 
     //set the scrollview to start at the left corner of the image -
 
-    self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    self.scrollView = [[RWTCenteredScrollView alloc] initWithFrame:self.view.bounds];
 
-    self.scrollView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+  
 
     self.scrollView.backgroundColor = [UIColor blackColor];
 
