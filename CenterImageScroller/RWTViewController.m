@@ -8,7 +8,8 @@
 
 #import "RWTViewController.h"
 
-@interface RWTViewController ()
+@interface RWTViewController ()<UIScrollViewDelegate>
+
 @property UIScrollView *scrollView;
 @property UIImageView *imageView;
 @end
@@ -42,8 +43,39 @@
 
     [self.scrollView addSubview:self.imageView];
 
+
+    //set scales for zooming
+
+    self.scrollView.delegate = self;
+
+    [self setZoomScale];
+
+
+
+
 }
+-(void)viewWillLayoutSubviews{
+    [self setZoomScale];
+}
+-(void)setZoomScale{
+    CGSize boundsSize = self.scrollView.bounds.size;
+    CGSize imageSize = self.imageView.bounds.size;
+
+    CGFloat xScale = boundsSize.width/imageSize.width;
+    CGFloat yScale = boundsSize.height/imageSize.height;
+
+    CGFloat minScale = MIN(xScale, yScale);
+
+    self.scrollView.minimumZoomScale = minScale;
+    self.scrollView.zoomScale = minScale;
+    self.scrollView.maximumZoomScale = 3.0;
+}
+-(UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+
+    //
 
 
+    return self.imageView;
+}
 
 @end
