@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RWTCenteredScrollView : UIScrollView
+@interface RWTCenteredImageScrollView : UIScrollView
 
 @end
