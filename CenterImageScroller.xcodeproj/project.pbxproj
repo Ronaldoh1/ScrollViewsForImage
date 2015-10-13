@@ -15,6 +15,7 @@
 		F25C423E1BCB9CB600855626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25C423C1BCB9CB600855626 /* LaunchScreen.storyboard */; };
 		F25C424A1BCBA05C00855626 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F25C42491BCBA05C00855626 /* image.jpg */; settings = {ASSET_TAGS = (); }; };
 		F25C424D1BCC0E4C00855626 /* RWTCenteredImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F25C424C1BCC0E4C00855626 /* RWTCenteredImageScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		F25C42501BCC1F9700855626 /* StoryboardScrollerApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F25C424F1BCC1F9700855626 /* StoryboardScrollerApp.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F25C42491BCBA05C00855626 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		F25C424B1BCC0E4C00855626 /* RWTCenteredImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTCenteredImageScrollView.h; sourceTree = "<group>"; };
 		F25C424C1BCC0E4C00855626 /* RWTCenteredImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTCenteredImageScrollView.m; sourceTree = "<group>"; };
+		F25C424F1BCC1F9700855626 /* StoryboardScrollerApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardScrollerApp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		F25C42221BCB9CB600855626 = {
 			isa = PBXGroup;
 			children = (
+				F25C424F1BCC1F9700855626 /* StoryboardScrollerApp.m */,
 				F25C422D1BCB9CB600855626 /* CenterImageScroller */,
 				F25C422C1BCB9CB600855626 /* Products */,
 			);
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F25C42361BCB9CB600855626 /* RWTViewController.m in Sources */,
+				F25C42501BCC1F9700855626 /* StoryboardScrollerApp.m in Sources */,
 				F25C42331BCB9CB600855626 /* AppDelegate.m in Sources */,
 				F25C42301BCB9CB600855626 /* main.m in Sources */,
 				F25C424D1BCC0E4C00855626 /* RWTCenteredImageScrollView.m in Sources */,
